@@ -1,0 +1,76 @@
+* {
+font-family: Georgia;
+}
+header {
+	font-family: Verdana;
+	text-align: center;
+}
+
+#nav {
+	width: 100%;
+	height: auto;
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	background-color: #25383C;
+	border-radius: 8px;
+}
+
+#nav ul {
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 8px 20px 10px 20px;
+}
+
+#nav a:hover {
+	background-color: #ff0000;
+}
+
+#nav li, form {
+	display: inline;
+}
+
+#nav input[type=text] {
+	padding: 5px;
+	border: none;
+}
+
+#container {
+	width: 100%;
+}
+
+#imageurl {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#movieinfo {
+	width: 80%;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+#reviews {
+	width: 80%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#settings {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
